@@ -1,0 +1,182 @@
+[
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct",
+    "neg2pos":36,
+    "pos2neg":59,
+    "count":443,
+    "origin_pass@1":0.5033860045,
+    "perturbated_pass@1":0.4514672686,
+    "pass-drop@1":0.103
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct",
+    "neg2pos":0,
+    "pos2neg":1,
+    "count":34,
+    "origin_pass@1":0.2941176471,
+    "perturbated_pass@1":0.2647058824,
+    "pass-drop@1":0.1
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct",
+    "neg2pos":7,
+    "pos2neg":20,
+    "count":500,
+    "origin_pass@1":0.484,
+    "perturbated_pass@1":0.458,
+    "pass-drop@1":0.054
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct",
+    "neg2pos":17,
+    "pos2neg":28,
+    "count":500,
+    "origin_pass@1":0.484,
+    "perturbated_pass@1":0.462,
+    "pass-drop@1":0.045
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct",
+    "neg2pos":14,
+    "pos2neg":29,
+    "count":499,
+    "origin_pass@1":0.4849699399,
+    "perturbated_pass@1":0.4549098196,
+    "pass-drop@1":0.062
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct",
+    "neg2pos":75,
+    "pos2neg":131,
+    "count":417,
+    "origin_pass@1":0.5683453237,
+    "perturbated_pass@1":0.4340527578,
+    "pass-drop@1":0.236
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct",
+    "neg2pos":44,
+    "pos2neg":47,
+    "count":188,
+    "origin_pass@1":0.5265957447,
+    "perturbated_pass@1":0.5106382979,
+    "pass-drop@1":0.03
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct",
+    "neg2pos":23,
+    "pos2neg":26,
+    "count":500,
+    "origin_pass@1":0.572,
+    "perturbated_pass@1":0.566,
+    "pass-drop@1":0.01
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct",
+    "neg2pos":55,
+    "pos2neg":31,
+    "count":500,
+    "origin_pass@1":0.572,
+    "perturbated_pass@1":0.62,
+    "pass-drop@1":-0.084
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct",
+    "neg2pos":26,
+    "pos2neg":33,
+    "count":500,
+    "origin_pass@1":0.572,
+    "perturbated_pass@1":0.558,
+    "pass-drop@1":0.024
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct",
+    "neg2pos":47,
+    "pos2neg":59,
+    "count":277,
+    "origin_pass@1":0.59566787,
+    "perturbated_pass@1":0.5523465704,
+    "pass-drop@1":0.073
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct",
+    "neg2pos":3,
+    "pos2neg":15,
+    "count":178,
+    "origin_pass@1":0.5786516854,
+    "perturbated_pass@1":0.5112359551,
+    "pass-drop@1":0.117
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct",
+    "neg2pos":88,
+    "pos2neg":91,
+    "count":493,
+    "origin_pass@1":0.6064908722,
+    "perturbated_pass@1":0.6004056795,
+    "pass-drop@1":0.01
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct",
+    "neg2pos":13,
+    "pos2neg":27,
+    "count":500,
+    "origin_pass@1":0.604,
+    "perturbated_pass@1":0.576,
+    "pass-drop@1":0.046
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct",
+    "neg2pos":9,
+    "pos2neg":29,
+    "count":500,
+    "origin_pass@1":0.604,
+    "perturbated_pass@1":0.564,
+    "pass-drop@1":0.066
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct",
+    "neg2pos":40,
+    "pos2neg":45,
+    "count":215,
+    "origin_pass@1":0.6,
+    "perturbated_pass@1":0.576744186,
+    "pass-drop@1":0.039
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct",
+    "neg2pos":0,
+    "pos2neg":1,
+    "count":10,
+    "origin_pass@1":0.4,
+    "perturbated_pass@1":0.3,
+    "pass-drop@1":0.25
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct",
+    "neg2pos":6,
+    "pos2neg":12,
+    "count":500,
+    "origin_pass@1":0.628,
+    "perturbated_pass@1":0.616,
+    "pass-drop@1":0.019
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct",
+    "neg2pos":17,
+    "pos2neg":46,
+    "count":500,
+    "origin_pass@1":0.628,
+    "perturbated_pass@1":0.57,
+    "pass-drop@1":0.092
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct",
+    "neg2pos":13,
+    "pos2neg":31,
+    "count":500,
+    "origin_pass@1":0.628,
+    "perturbated_pass@1":0.592,
+    "pass-drop@1":0.057
+  }
+]

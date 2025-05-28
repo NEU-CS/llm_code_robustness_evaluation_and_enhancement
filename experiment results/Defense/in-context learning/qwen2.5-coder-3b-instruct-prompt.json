@@ -1,0 +1,1082 @@
+[
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct_1random_prompt",
+    "neg2pos":42,
+    "pos2neg":76,
+    "count":443,
+    "origin_pass@1":0.4717832957,
+    "perturbated_pass@1":0.39503386,
+    "pass-drop@1":0.163
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct_1sorted_prompt",
+    "neg2pos":12,
+    "pos2neg":43,
+    "count":443,
+    "origin_pass@1":0.5372460497,
+    "perturbated_pass@1":0.467268623,
+    "pass-drop@1":0.13
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct_3random_prompt",
+    "neg2pos":25,
+    "pos2neg":71,
+    "count":443,
+    "origin_pass@1":0.5891647856,
+    "perturbated_pass@1":0.4853273138,
+    "pass-drop@1":0.176
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct_3sorted_prompt",
+    "neg2pos":9,
+    "pos2neg":60,
+    "count":443,
+    "origin_pass@1":0.6410835214,
+    "perturbated_pass@1":0.5259593679,
+    "pass-drop@1":0.18
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct_5random_prompt",
+    "neg2pos":26,
+    "pos2neg":71,
+    "count":443,
+    "origin_pass@1":0.5778781038,
+    "perturbated_pass@1":0.4762979684,
+    "pass-drop@1":0.176
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_expression_exchange_instruct_5sorted_prompt",
+    "neg2pos":10,
+    "pos2neg":51,
+    "count":443,
+    "origin_pass@1":0.6162528217,
+    "perturbated_pass@1":0.5237020316,
+    "pass-drop@1":0.15
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct_1random_prompt",
+    "neg2pos":0,
+    "pos2neg":2,
+    "count":34,
+    "origin_pass@1":0.2941176471,
+    "perturbated_pass@1":0.2352941176,
+    "pass-drop@1":0.2
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct_1sorted_prompt",
+    "neg2pos":1,
+    "pos2neg":1,
+    "count":34,
+    "origin_pass@1":0.2647058824,
+    "perturbated_pass@1":0.2647058824,
+    "pass-drop@1":0.0
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct_3random_prompt",
+    "neg2pos":2,
+    "pos2neg":1,
+    "count":34,
+    "origin_pass@1":0.2352941176,
+    "perturbated_pass@1":0.2647058824,
+    "pass-drop@1":-0.125
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct_3sorted_prompt",
+    "neg2pos":1,
+    "pos2neg":0,
+    "count":34,
+    "origin_pass@1":0.2941176471,
+    "perturbated_pass@1":0.3235294118,
+    "pass-drop@1":-0.1
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct_5random_prompt",
+    "neg2pos":2,
+    "pos2neg":0,
+    "count":34,
+    "origin_pass@1":0.2941176471,
+    "perturbated_pass@1":0.3529411765,
+    "pass-drop@1":-0.2
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_stmt_exchange_instruct_5sorted_prompt",
+    "neg2pos":1,
+    "pos2neg":0,
+    "count":34,
+    "origin_pass@1":0.2941176471,
+    "perturbated_pass@1":0.3235294118,
+    "pass-drop@1":-0.1
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct_1random_prompt",
+    "neg2pos":59,
+    "pos2neg":53,
+    "count":500,
+    "origin_pass@1":0.454,
+    "perturbated_pass@1":0.466,
+    "pass-drop@1":-0.026
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct_1sorted_prompt",
+    "neg2pos":25,
+    "pos2neg":14,
+    "count":500,
+    "origin_pass@1":0.518,
+    "perturbated_pass@1":0.54,
+    "pass-drop@1":-0.042
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct_3random_prompt",
+    "neg2pos":37,
+    "pos2neg":40,
+    "count":500,
+    "origin_pass@1":0.566,
+    "perturbated_pass@1":0.56,
+    "pass-drop@1":0.011
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct_3sorted_prompt",
+    "neg2pos":9,
+    "pos2neg":16,
+    "count":500,
+    "origin_pass@1":0.642,
+    "perturbated_pass@1":0.628,
+    "pass-drop@1":0.022
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct_5random_prompt",
+    "neg2pos":48,
+    "pos2neg":39,
+    "count":500,
+    "origin_pass@1":0.568,
+    "perturbated_pass@1":0.586,
+    "pass-drop@1":-0.032
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_code_style_instruct_5sorted_prompt",
+    "neg2pos":10,
+    "pos2neg":16,
+    "count":500,
+    "origin_pass@1":0.62,
+    "perturbated_pass@1":0.608,
+    "pass-drop@1":0.019
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct_1random_prompt",
+    "neg2pos":61,
+    "pos2neg":71,
+    "count":500,
+    "origin_pass@1":0.454,
+    "perturbated_pass@1":0.434,
+    "pass-drop@1":0.044
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct_1sorted_prompt",
+    "neg2pos":25,
+    "pos2neg":44,
+    "count":500,
+    "origin_pass@1":0.518,
+    "perturbated_pass@1":0.48,
+    "pass-drop@1":0.073
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct_3random_prompt",
+    "neg2pos":47,
+    "pos2neg":62,
+    "count":500,
+    "origin_pass@1":0.566,
+    "perturbated_pass@1":0.536,
+    "pass-drop@1":0.053
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct_3sorted_prompt",
+    "neg2pos":16,
+    "pos2neg":44,
+    "count":500,
+    "origin_pass@1":0.642,
+    "perturbated_pass@1":0.586,
+    "pass-drop@1":0.087
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct_5random_prompt",
+    "neg2pos":29,
+    "pos2neg":60,
+    "count":500,
+    "origin_pass@1":0.568,
+    "perturbated_pass@1":0.506,
+    "pass-drop@1":0.109
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_insert_instruct_5sorted_prompt",
+    "neg2pos":17,
+    "pos2neg":42,
+    "count":500,
+    "origin_pass@1":0.62,
+    "perturbated_pass@1":0.57,
+    "pass-drop@1":0.081
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct_1random_prompt",
+    "neg2pos":64,
+    "pos2neg":68,
+    "count":499,
+    "origin_pass@1":0.4549098196,
+    "perturbated_pass@1":0.4468937876,
+    "pass-drop@1":0.018
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct_1sorted_prompt",
+    "neg2pos":23,
+    "pos2neg":41,
+    "count":499,
+    "origin_pass@1":0.5190380762,
+    "perturbated_pass@1":0.4829659319,
+    "pass-drop@1":0.069
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct_3random_prompt",
+    "neg2pos":38,
+    "pos2neg":62,
+    "count":499,
+    "origin_pass@1":0.5671342685,
+    "perturbated_pass@1":0.5190380762,
+    "pass-drop@1":0.085
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct_3sorted_prompt",
+    "neg2pos":12,
+    "pos2neg":42,
+    "count":499,
+    "origin_pass@1":0.6432865731,
+    "perturbated_pass@1":0.5831663327,
+    "pass-drop@1":0.093
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct_5random_prompt",
+    "neg2pos":33,
+    "pos2neg":55,
+    "count":499,
+    "origin_pass@1":0.5691382766,
+    "perturbated_pass@1":0.5250501002,
+    "pass-drop@1":0.077
+  },
+  {
+    "Test Case":"mbpp_generate_cpp_robust_rename_instruct_5sorted_prompt",
+    "neg2pos":21,
+    "pos2neg":40,
+    "count":499,
+    "origin_pass@1":0.621242485,
+    "perturbated_pass@1":0.5831663327,
+    "pass-drop@1":0.061
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct_1random_prompt",
+    "neg2pos":72,
+    "pos2neg":141,
+    "count":417,
+    "origin_pass@1":0.6858513189,
+    "perturbated_pass@1":0.520383693,
+    "pass-drop@1":0.241
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct_1sorted_prompt",
+    "neg2pos":68,
+    "pos2neg":125,
+    "count":417,
+    "origin_pass@1":0.690647482,
+    "perturbated_pass@1":0.5539568345,
+    "pass-drop@1":0.198
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct_3random_prompt",
+    "neg2pos":57,
+    "pos2neg":141,
+    "count":417,
+    "origin_pass@1":0.721822542,
+    "perturbated_pass@1":0.520383693,
+    "pass-drop@1":0.279
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct_3sorted_prompt",
+    "neg2pos":68,
+    "pos2neg":127,
+    "count":417,
+    "origin_pass@1":0.6618705036,
+    "perturbated_pass@1":0.520383693,
+    "pass-drop@1":0.214
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct_5random_prompt",
+    "neg2pos":60,
+    "pos2neg":133,
+    "count":417,
+    "origin_pass@1":0.726618705,
+    "perturbated_pass@1":0.551558753,
+    "pass-drop@1":0.241
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_expression_exchange_instruct_5sorted_prompt",
+    "neg2pos":66,
+    "pos2neg":131,
+    "count":417,
+    "origin_pass@1":0.7026378897,
+    "perturbated_pass@1":0.5467625899,
+    "pass-drop@1":0.222
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct_1random_prompt",
+    "neg2pos":43,
+    "pos2neg":40,
+    "count":188,
+    "origin_pass@1":0.6755319149,
+    "perturbated_pass@1":0.6914893617,
+    "pass-drop@1":-0.024
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct_1sorted_prompt",
+    "neg2pos":39,
+    "pos2neg":33,
+    "count":188,
+    "origin_pass@1":0.6861702128,
+    "perturbated_pass@1":0.7180851064,
+    "pass-drop@1":-0.047
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct_3random_prompt",
+    "neg2pos":39,
+    "pos2neg":40,
+    "count":188,
+    "origin_pass@1":0.7127659574,
+    "perturbated_pass@1":0.7074468085,
+    "pass-drop@1":0.007
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct_3sorted_prompt",
+    "neg2pos":40,
+    "pos2neg":40,
+    "count":188,
+    "origin_pass@1":0.6542553191,
+    "perturbated_pass@1":0.6542553191,
+    "pass-drop@1":0.0
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct_5random_prompt",
+    "neg2pos":37,
+    "pos2neg":40,
+    "count":188,
+    "origin_pass@1":0.7127659574,
+    "perturbated_pass@1":0.6968085106,
+    "pass-drop@1":0.022
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_stmt_exchange_instruct_5sorted_prompt",
+    "neg2pos":40,
+    "pos2neg":39,
+    "count":188,
+    "origin_pass@1":0.7074468085,
+    "perturbated_pass@1":0.7127659574,
+    "pass-drop@1":-0.008
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct_1random_prompt",
+    "neg2pos":26,
+    "pos2neg":30,
+    "count":500,
+    "origin_pass@1":0.686,
+    "perturbated_pass@1":0.678,
+    "pass-drop@1":0.012
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct_1sorted_prompt",
+    "neg2pos":15,
+    "pos2neg":8,
+    "count":500,
+    "origin_pass@1":0.682,
+    "perturbated_pass@1":0.696,
+    "pass-drop@1":-0.021
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct_3random_prompt",
+    "neg2pos":15,
+    "pos2neg":46,
+    "count":500,
+    "origin_pass@1":0.716,
+    "perturbated_pass@1":0.654,
+    "pass-drop@1":0.087
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct_3sorted_prompt",
+    "neg2pos":9,
+    "pos2neg":17,
+    "count":500,
+    "origin_pass@1":0.656,
+    "perturbated_pass@1":0.64,
+    "pass-drop@1":0.024
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct_5random_prompt",
+    "neg2pos":14,
+    "pos2neg":18,
+    "count":500,
+    "origin_pass@1":0.728,
+    "perturbated_pass@1":0.72,
+    "pass-drop@1":0.011
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_code_style_instruct_5sorted_prompt",
+    "neg2pos":11,
+    "pos2neg":12,
+    "count":500,
+    "origin_pass@1":0.694,
+    "perturbated_pass@1":0.692,
+    "pass-drop@1":0.003
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct_1random_prompt",
+    "neg2pos":31,
+    "pos2neg":39,
+    "count":500,
+    "origin_pass@1":0.686,
+    "perturbated_pass@1":0.67,
+    "pass-drop@1":0.023
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct_1sorted_prompt",
+    "neg2pos":24,
+    "pos2neg":24,
+    "count":500,
+    "origin_pass@1":0.682,
+    "perturbated_pass@1":0.682,
+    "pass-drop@1":0.0
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct_3random_prompt",
+    "neg2pos":16,
+    "pos2neg":30,
+    "count":500,
+    "origin_pass@1":0.716,
+    "perturbated_pass@1":0.688,
+    "pass-drop@1":0.039
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct_3sorted_prompt",
+    "neg2pos":37,
+    "pos2neg":18,
+    "count":500,
+    "origin_pass@1":0.656,
+    "perturbated_pass@1":0.694,
+    "pass-drop@1":-0.058
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct_5random_prompt",
+    "neg2pos":13,
+    "pos2neg":23,
+    "count":500,
+    "origin_pass@1":0.728,
+    "perturbated_pass@1":0.708,
+    "pass-drop@1":0.027
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_insert_instruct_5sorted_prompt",
+    "neg2pos":22,
+    "pos2neg":20,
+    "count":500,
+    "origin_pass@1":0.694,
+    "perturbated_pass@1":0.698,
+    "pass-drop@1":-0.006
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct_1random_prompt",
+    "neg2pos":28,
+    "pos2neg":48,
+    "count":500,
+    "origin_pass@1":0.686,
+    "perturbated_pass@1":0.646,
+    "pass-drop@1":0.058
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct_1sorted_prompt",
+    "neg2pos":18,
+    "pos2neg":28,
+    "count":500,
+    "origin_pass@1":0.682,
+    "perturbated_pass@1":0.662,
+    "pass-drop@1":0.029
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct_3random_prompt",
+    "neg2pos":16,
+    "pos2neg":44,
+    "count":500,
+    "origin_pass@1":0.716,
+    "perturbated_pass@1":0.66,
+    "pass-drop@1":0.078
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct_3sorted_prompt",
+    "neg2pos":26,
+    "pos2neg":21,
+    "count":500,
+    "origin_pass@1":0.656,
+    "perturbated_pass@1":0.666,
+    "pass-drop@1":-0.015
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct_5random_prompt",
+    "neg2pos":12,
+    "pos2neg":35,
+    "count":500,
+    "origin_pass@1":0.728,
+    "perturbated_pass@1":0.682,
+    "pass-drop@1":0.063
+  },
+  {
+    "Test Case":"mbpp_generate_java_robust_rename_instruct_5sorted_prompt",
+    "neg2pos":20,
+    "pos2neg":26,
+    "count":500,
+    "origin_pass@1":0.694,
+    "perturbated_pass@1":0.682,
+    "pass-drop@1":0.017
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct_1random_prompt",
+    "neg2pos":13,
+    "pos2neg":29,
+    "count":277,
+    "origin_pass@1":0.5884476534,
+    "perturbated_pass@1":0.5306859206,
+    "pass-drop@1":0.098
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct_1sorted_prompt",
+    "neg2pos":5,
+    "pos2neg":20,
+    "count":277,
+    "origin_pass@1":0.6281588448,
+    "perturbated_pass@1":0.5740072202,
+    "pass-drop@1":0.086
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct_3random_prompt",
+    "neg2pos":6,
+    "pos2neg":19,
+    "count":277,
+    "origin_pass@1":0.6137184116,
+    "perturbated_pass@1":0.5667870036,
+    "pass-drop@1":0.076
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct_3sorted_prompt",
+    "neg2pos":6,
+    "pos2neg":17,
+    "count":277,
+    "origin_pass@1":0.6173285199,
+    "perturbated_pass@1":0.5776173285,
+    "pass-drop@1":0.064
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct_5random_prompt",
+    "neg2pos":4,
+    "pos2neg":16,
+    "count":277,
+    "origin_pass@1":0.6173285199,
+    "perturbated_pass@1":0.5740072202,
+    "pass-drop@1":0.07
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_expression_exchange_instruct_5sorted_prompt",
+    "neg2pos":2,
+    "pos2neg":16,
+    "count":277,
+    "origin_pass@1":0.6389891697,
+    "perturbated_pass@1":0.5884476534,
+    "pass-drop@1":0.079
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct_1random_prompt",
+    "neg2pos":4,
+    "pos2neg":18,
+    "count":178,
+    "origin_pass@1":0.5730337079,
+    "perturbated_pass@1":0.4943820225,
+    "pass-drop@1":0.137
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct_1sorted_prompt",
+    "neg2pos":6,
+    "pos2neg":21,
+    "count":178,
+    "origin_pass@1":0.6123595506,
+    "perturbated_pass@1":0.5280898876,
+    "pass-drop@1":0.138
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct_3random_prompt",
+    "neg2pos":4,
+    "pos2neg":16,
+    "count":178,
+    "origin_pass@1":0.5898876404,
+    "perturbated_pass@1":0.5224719101,
+    "pass-drop@1":0.114
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct_3sorted_prompt",
+    "neg2pos":5,
+    "pos2neg":18,
+    "count":178,
+    "origin_pass@1":0.606741573,
+    "perturbated_pass@1":0.5337078652,
+    "pass-drop@1":0.12
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct_5random_prompt",
+    "neg2pos":5,
+    "pos2neg":15,
+    "count":178,
+    "origin_pass@1":0.5786516854,
+    "perturbated_pass@1":0.5224719101,
+    "pass-drop@1":0.097
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_stmt_exchange_instruct_5sorted_prompt",
+    "neg2pos":4,
+    "pos2neg":20,
+    "count":178,
+    "origin_pass@1":0.6292134831,
+    "perturbated_pass@1":0.5393258427,
+    "pass-drop@1":0.143
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct_1random_prompt",
+    "neg2pos":27,
+    "pos2neg":33,
+    "count":496,
+    "origin_pass@1":0.5705645161,
+    "perturbated_pass@1":0.5584677419,
+    "pass-drop@1":0.021
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct_1sorted_prompt",
+    "neg2pos":9,
+    "pos2neg":14,
+    "count":493,
+    "origin_pass@1":0.6227180527,
+    "perturbated_pass@1":0.6125760649,
+    "pass-drop@1":0.016
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct_3random_prompt",
+    "neg2pos":14,
+    "pos2neg":15,
+    "count":496,
+    "origin_pass@1":0.6048387097,
+    "perturbated_pass@1":0.6028225806,
+    "pass-drop@1":0.003
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct_3sorted_prompt",
+    "neg2pos":3,
+    "pos2neg":6,
+    "count":493,
+    "origin_pass@1":0.6247464503,
+    "perturbated_pass@1":0.6186612576,
+    "pass-drop@1":0.01
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct_5random_prompt",
+    "neg2pos":20,
+    "pos2neg":15,
+    "count":491,
+    "origin_pass@1":0.5987780041,
+    "perturbated_pass@1":0.6089613035,
+    "pass-drop@1":-0.017
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_code_style_instruct_5sorted_prompt",
+    "neg2pos":1,
+    "pos2neg":8,
+    "count":493,
+    "origin_pass@1":0.630831643,
+    "perturbated_pass@1":0.61663286,
+    "pass-drop@1":0.023
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct_1random_prompt",
+    "neg2pos":27,
+    "pos2neg":41,
+    "count":500,
+    "origin_pass@1":0.574,
+    "perturbated_pass@1":0.546,
+    "pass-drop@1":0.049
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct_1sorted_prompt",
+    "neg2pos":12,
+    "pos2neg":28,
+    "count":500,
+    "origin_pass@1":0.624,
+    "perturbated_pass@1":0.592,
+    "pass-drop@1":0.051
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct_3random_prompt",
+    "neg2pos":19,
+    "pos2neg":45,
+    "count":500,
+    "origin_pass@1":0.604,
+    "perturbated_pass@1":0.552,
+    "pass-drop@1":0.086
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct_3sorted_prompt",
+    "neg2pos":10,
+    "pos2neg":29,
+    "count":500,
+    "origin_pass@1":0.626,
+    "perturbated_pass@1":0.588,
+    "pass-drop@1":0.061
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct_5random_prompt",
+    "neg2pos":20,
+    "pos2neg":32,
+    "count":500,
+    "origin_pass@1":0.598,
+    "perturbated_pass@1":0.574,
+    "pass-drop@1":0.04
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_insert_instruct_5sorted_prompt",
+    "neg2pos":5,
+    "pos2neg":29,
+    "count":500,
+    "origin_pass@1":0.632,
+    "perturbated_pass@1":0.584,
+    "pass-drop@1":0.076
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct_1random_prompt",
+    "neg2pos":31,
+    "pos2neg":60,
+    "count":500,
+    "origin_pass@1":0.574,
+    "perturbated_pass@1":0.516,
+    "pass-drop@1":0.101
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct_1sorted_prompt",
+    "neg2pos":9,
+    "pos2neg":43,
+    "count":500,
+    "origin_pass@1":0.624,
+    "perturbated_pass@1":0.556,
+    "pass-drop@1":0.109
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct_3random_prompt",
+    "neg2pos":14,
+    "pos2neg":43,
+    "count":500,
+    "origin_pass@1":0.604,
+    "perturbated_pass@1":0.546,
+    "pass-drop@1":0.096
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct_3sorted_prompt",
+    "neg2pos":11,
+    "pos2neg":37,
+    "count":500,
+    "origin_pass@1":0.626,
+    "perturbated_pass@1":0.574,
+    "pass-drop@1":0.083
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct_5random_prompt",
+    "neg2pos":20,
+    "pos2neg":48,
+    "count":500,
+    "origin_pass@1":0.598,
+    "perturbated_pass@1":0.542,
+    "pass-drop@1":0.094
+  },
+  {
+    "Test Case":"mbpp_generate_javascript_robust_rename_instruct_5sorted_prompt",
+    "neg2pos":4,
+    "pos2neg":39,
+    "count":500,
+    "origin_pass@1":0.632,
+    "perturbated_pass@1":0.562,
+    "pass-drop@1":0.111
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct_1random_prompt",
+    "neg2pos":23,
+    "pos2neg":15,
+    "count":218,
+    "origin_pass@1":0.4357798165,
+    "perturbated_pass@1":0.4724770642,
+    "pass-drop@1":-0.084
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct_1sorted_prompt",
+    "neg2pos":7,
+    "pos2neg":9,
+    "count":218,
+    "origin_pass@1":0.5779816514,
+    "perturbated_pass@1":0.5688073394,
+    "pass-drop@1":0.016
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct_3random_prompt",
+    "neg2pos":17,
+    "pos2neg":13,
+    "count":218,
+    "origin_pass@1":0.5229357798,
+    "perturbated_pass@1":0.5412844037,
+    "pass-drop@1":-0.035
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct_3sorted_prompt",
+    "neg2pos":7,
+    "pos2neg":14,
+    "count":218,
+    "origin_pass@1":0.6146788991,
+    "perturbated_pass@1":0.5825688073,
+    "pass-drop@1":0.052
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct_5random_prompt",
+    "neg2pos":10,
+    "pos2neg":26,
+    "count":218,
+    "origin_pass@1":0.6009174312,
+    "perturbated_pass@1":0.5275229358,
+    "pass-drop@1":0.122
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_expression_exchange_instruct_5sorted_prompt",
+    "neg2pos":6,
+    "pos2neg":22,
+    "count":218,
+    "origin_pass@1":0.628440367,
+    "perturbated_pass@1":0.5550458716,
+    "pass-drop@1":0.117
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct_1random_prompt",
+    "neg2pos":0,
+    "pos2neg":2,
+    "count":10,
+    "origin_pass@1":0.5,
+    "perturbated_pass@1":0.3,
+    "pass-drop@1":0.4
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct_1sorted_prompt",
+    "neg2pos":0,
+    "pos2neg":1,
+    "count":10,
+    "origin_pass@1":0.5,
+    "perturbated_pass@1":0.4,
+    "pass-drop@1":0.2
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct_3random_prompt",
+    "neg2pos":0,
+    "pos2neg":2,
+    "count":10,
+    "origin_pass@1":0.5,
+    "perturbated_pass@1":0.3,
+    "pass-drop@1":0.4
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct_3sorted_prompt",
+    "neg2pos":0,
+    "pos2neg":4,
+    "count":10,
+    "origin_pass@1":0.5,
+    "perturbated_pass@1":0.1,
+    "pass-drop@1":0.8
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct_5random_prompt",
+    "neg2pos":0,
+    "pos2neg":1,
+    "count":10,
+    "origin_pass@1":0.3,
+    "perturbated_pass@1":0.2,
+    "pass-drop@1":0.333
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_stmt_exchange_instruct_5sorted_prompt",
+    "neg2pos":0,
+    "pos2neg":3,
+    "count":10,
+    "origin_pass@1":0.4,
+    "perturbated_pass@1":0.1,
+    "pass-drop@1":0.75
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct_1random_prompt",
+    "neg2pos":74,
+    "pos2neg":18,
+    "count":500,
+    "origin_pass@1":0.436,
+    "perturbated_pass@1":0.548,
+    "pass-drop@1":-0.257
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct_1sorted_prompt",
+    "neg2pos":14,
+    "pos2neg":11,
+    "count":500,
+    "origin_pass@1":0.608,
+    "perturbated_pass@1":0.614,
+    "pass-drop@1":-0.01
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct_3random_prompt",
+    "neg2pos":68,
+    "pos2neg":27,
+    "count":500,
+    "origin_pass@1":0.512,
+    "perturbated_pass@1":0.594,
+    "pass-drop@1":-0.16
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct_3sorted_prompt",
+    "neg2pos":6,
+    "pos2neg":8,
+    "count":500,
+    "origin_pass@1":0.656,
+    "perturbated_pass@1":0.652,
+    "pass-drop@1":0.006
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct_5random_prompt",
+    "neg2pos":24,
+    "pos2neg":36,
+    "count":500,
+    "origin_pass@1":0.632,
+    "perturbated_pass@1":0.608,
+    "pass-drop@1":0.038
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_code_style_instruct_5sorted_prompt",
+    "neg2pos":8,
+    "pos2neg":17,
+    "count":500,
+    "origin_pass@1":0.662,
+    "perturbated_pass@1":0.644,
+    "pass-drop@1":0.027
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct_1random_prompt",
+    "neg2pos":76,
+    "pos2neg":42,
+    "count":500,
+    "origin_pass@1":0.436,
+    "perturbated_pass@1":0.504,
+    "pass-drop@1":-0.156
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct_1sorted_prompt",
+    "neg2pos":21,
+    "pos2neg":32,
+    "count":500,
+    "origin_pass@1":0.608,
+    "perturbated_pass@1":0.586,
+    "pass-drop@1":0.036
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct_3random_prompt",
+    "neg2pos":61,
+    "pos2neg":42,
+    "count":500,
+    "origin_pass@1":0.512,
+    "perturbated_pass@1":0.55,
+    "pass-drop@1":-0.074
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct_3sorted_prompt",
+    "neg2pos":16,
+    "pos2neg":39,
+    "count":500,
+    "origin_pass@1":0.656,
+    "perturbated_pass@1":0.61,
+    "pass-drop@1":0.07
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct_5random_prompt",
+    "neg2pos":21,
+    "pos2neg":60,
+    "count":500,
+    "origin_pass@1":0.632,
+    "perturbated_pass@1":0.554,
+    "pass-drop@1":0.123
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_insert_instruct_5sorted_prompt",
+    "neg2pos":20,
+    "pos2neg":44,
+    "count":500,
+    "origin_pass@1":0.662,
+    "perturbated_pass@1":0.614,
+    "pass-drop@1":0.073
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct_1random_prompt",
+    "neg2pos":75,
+    "pos2neg":40,
+    "count":500,
+    "origin_pass@1":0.436,
+    "perturbated_pass@1":0.506,
+    "pass-drop@1":-0.161
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct_1sorted_prompt",
+    "neg2pos":19,
+    "pos2neg":30,
+    "count":500,
+    "origin_pass@1":0.608,
+    "perturbated_pass@1":0.586,
+    "pass-drop@1":0.036
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct_3random_prompt",
+    "neg2pos":64,
+    "pos2neg":39,
+    "count":500,
+    "origin_pass@1":0.512,
+    "perturbated_pass@1":0.562,
+    "pass-drop@1":-0.098
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct_3sorted_prompt",
+    "neg2pos":16,
+    "pos2neg":38,
+    "count":500,
+    "origin_pass@1":0.656,
+    "perturbated_pass@1":0.612,
+    "pass-drop@1":0.067
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct_5random_prompt",
+    "neg2pos":23,
+    "pos2neg":47,
+    "count":500,
+    "origin_pass@1":0.632,
+    "perturbated_pass@1":0.584,
+    "pass-drop@1":0.076
+  },
+  {
+    "Test Case":"mbpp_generate_python_robust_rename_instruct_5sorted_prompt",
+    "neg2pos":18,
+    "pos2neg":43,
+    "count":500,
+    "origin_pass@1":0.662,
+    "perturbated_pass@1":0.612,
+    "pass-drop@1":0.076
+  }
+]

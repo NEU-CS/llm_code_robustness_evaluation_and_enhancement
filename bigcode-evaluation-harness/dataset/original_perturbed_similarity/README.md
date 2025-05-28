@@ -1,0 +1,1 @@
+# This similarity is used for comparing the original dataset and perturbed one.

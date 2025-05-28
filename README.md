@@ -1,1 +1,12 @@
-# llm_code_robustness_evaluation_and_enhancement
+# Robustness Evaluation and Enhancement Framework
+
+## Repository Structure
+├── adv_samples_gen/ # Adversarial sample generation and adversarial training modules
+
+├── bigcode-evaluation-harness/ # Evaluation framework for code models, you can see our evaluation tasks and prompts here
+
+├── dataset/ # Datasets(MBPP and its translated version)
+
+├── experiment_results/ # Saved experimental results
+
+├── perturbation_pipeline/ # Our transformation implementation
