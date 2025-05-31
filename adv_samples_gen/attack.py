@@ -90,7 +90,7 @@ def main():
     
     
     args = parser.parse_args()
-    args.eval_data_file = f"/data1/ljc/code/llm_robustness_eval_and_enhance/intern_files/dataset/generate/mbpp_{args.language}_tested.json"
+    args.eval_data_file = f""
     # Set seed
     set_seed(args.seed)
     args.start_epoch = 0

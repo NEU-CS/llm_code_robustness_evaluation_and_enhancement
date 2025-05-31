@@ -33,7 +33,7 @@ if __name__ == '__main__':
                 for prompt_type in ["1random_prompt","3random_prompt","5random_prompt"]:
                     model_type = "causal_base" if model_name.endswith("base") else "causal_chat"
                     print(f"calculate model:{model_name} perturbation:{perturbation} language:{language}")
-                    prefix_path = "/data1/ljc/code/llm_robustness_eval_and_enhance/bigcode-evaluation-harness/result/"
+                    prefix_path = ""
                     perturbation_whole_name = ""
                     if model_type == "causal_base":
                         perturbation_whole_name = f"mbpp_generate_{language}_robust_{perturbation}_{prompt_type}"
