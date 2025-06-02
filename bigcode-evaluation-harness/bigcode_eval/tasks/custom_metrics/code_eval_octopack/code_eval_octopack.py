@@ -1,6 +1,3 @@
-"""This metric implements code evaluation with execution across multiple languages as used in the paper 
-"OctoPack: Instruction Tuning Code Large Language Models" (https://arxiv.org/abs/2308.07124)."""
-
 import itertools
 import os
 from collections import Counter, defaultdict
@@ -12,22 +9,6 @@ import numpy as np
 import evaluate
 
 from .execute import check_correctness
-
-
-_CITATION = """\
-@article{muennighoff2023octopack,
-      title={OctoPack: Instruction Tuning Code Large Language Models}, 
-      author={Niklas Muennighoff and Qian Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and Shayne Longpre},
-      journal={arXiv preprint arXiv:2308.07124},
-      year={2023}
-}
-"""
-
-_DESCRIPTION = """\
-This metric implements code evaluation with execution across multiple languages as used in the paper 
-"OctoPack: Instruction Tuning Code Large Language Models" (https://arxiv.org/abs/2308.07124).
-"""
-
 
 _KWARGS_DESCRIPTION = """
 Calculates how good are predictions given some references, using certain scores
@@ -61,9 +42,7 @@ Although it is highly unlikely that model-generated code will do something
 overtly malicious in response to this test suite, model-generated code may act
 destructively due to a lack of model capability or alignment.
 Users are strongly encouraged to sandbox this evaluation suite so that it
-does not perform destructive actions on their host or network. For more
-information on how OpenAI sandboxes its code, see the paper "Evaluating Large
-Language Models Trained on Code" (https://arxiv.org/abs/2107.03374).
+does not perform destructive actions on their host or network. 
 
 Once you have read this disclaimer and taken appropriate precautions,
 set the environment variable HF_ALLOW_CODE_EVAL="1". Within Python you can to this
@@ -95,8 +74,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE."""
 
-
-# https://github.com/THUDM/CodeGeeX/blob/ebeb850f227a90c79de39f7e26b1302f374f3240/codegeex/benchmark/rust/Cargo.toml
 BASE_CARGO = '''[package]
 name = "rust"
 version = "0.1.0"

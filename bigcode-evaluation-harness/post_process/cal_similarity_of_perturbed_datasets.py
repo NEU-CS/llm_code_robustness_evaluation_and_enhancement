@@ -78,7 +78,7 @@ def get_dataset(dataset,model_type,language,perturbation):
 
 
 if __name__ == '__main__':
-    tokenizer = AutoTokenizer.from_pretrained("/data1/model/qwen/Qwen/Qwen2.5-Coder-0.5B-Instruct")
+    tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-0.5B-Instruct")
     LANGAUGES = ['cpp','python','java','javascript']
     for perturbation in ["rename","code_stmt_exchange","code_expression_exchange","code_style","insert"]:
         for lang in LANGAUGES:

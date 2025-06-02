@@ -7,6 +7,5 @@
 
 ├── dataset/ # Datasets(MBPP and its translated version)
 
-├── experiment_results/ # Saved experimental results
-
 ├── perturbation_pipeline/ # Our transformation implementation
+

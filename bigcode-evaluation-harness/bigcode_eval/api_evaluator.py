@@ -12,21 +12,6 @@ from bigcode_eval.api_client import HttpAPIServer
 from bigcode_eval.filewriter import write_save_generations
 
 _WARNING = """
-################################################################################
-                                  !!!WARNING!!!
-################################################################################
-The "code_eval"/"apps_metric" you are about to use, execute untrusted 
-model-generated code in Python.
-Although it is highly unlikely that model-generated code will do something
-overtly malicious in response to this test suite, model-generated code may act
-destructively due to a lack of model capability or alignment.
-Users are strongly encouraged to sandbox this evaluation suite so that it
-does not perform destructive actions on their host or network. For more
-information on how OpenAI sandboxes its code, see the paper "Evaluating Large
-Language Models Trained on Code" (https://arxiv.org/abs/2107.03374).
-Once you have read this disclaimer and taken appropriate precautions, set the argument 
-"allow_code_execution" to True.
-################################################################################\
 """
 
 

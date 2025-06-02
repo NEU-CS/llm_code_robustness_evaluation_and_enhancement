@@ -33,7 +33,7 @@ if __name__ == '__main__':
                 for prompt_type in ["1random_prompt","3random_prompt","5random_prompt"]:
                     model_type = "causal_base" if model_name.endswith("base") else "causal_chat"
                     print(f"calculate model:{model_name} perturbation:{perturbation} language:{language}")
-                    prefix_path = ""
+                    prefix_path = "" #define your prefix path here
                     perturbation_whole_name = ""
                     if model_type == "causal_base":
                         perturbation_whole_name = f"mbpp_generate_{language}_robust_{perturbation}_{prompt_type}"

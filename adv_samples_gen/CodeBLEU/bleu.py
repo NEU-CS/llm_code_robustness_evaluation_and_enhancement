@@ -1,12 +1,4 @@
 # -*- coding: utf-8 -*-
-# Natural Language Toolkit: BLEU Score
-#
-# Copyright (C) 2001-2020 NLTK Project
-# Authors: Chin Yee Lee, Hengfeng Li, Ruxin Hou, Calvin Tanujaya Lim
-# Contributors: Björn Mattsson, Dmitrijs Milajevs, Liling Tan
-# URL: <http://nltk.org/>
-# For license information, see LICENSE.TXT
-
 """BLEU score implementation."""
 
 import math
@@ -27,10 +19,6 @@ def sentence_bleu(
     auto_reweigh=False,
 ):
     """
-    Calculate BLEU score (Bilingual Evaluation Understudy) from
-    Papineni, Kishore, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002.
-    "BLEU: a method for automatic evaluation of machine translation."
-    In Proceedings of ACL. http://www.aclweb.org/anthology/P02-1040.pdf
     >>> hypothesis1 = ['It', 'is', 'a', 'guide', 'to', 'action', 'which',
     ...               'ensures', 'that', 'the', 'military', 'always',
     ...               'obeys', 'the', 'commands', 'of', 'the', 'party']
@@ -400,11 +388,6 @@ def brevity_penalty(closest_ref_len, hyp_len):
 
 class SmoothingFunction:
     """
-    This is an implementation of the smoothing techniques
-    for segment-level BLEU scores that was presented in
-    Boxing Chen and Collin Cherry (2014) A Systematic Comparison of
-    Smoothing Techniques for Sentence-Level BLEU. In WMT14.
-    http://acl2014.org/acl2014/W14-33/pdf/W14-3346.pdf
     """
 
     def __init__(self, epsilon=0.1, alpha=5, k=5):

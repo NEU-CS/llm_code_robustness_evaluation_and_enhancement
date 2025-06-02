@@ -1,16 +1,3 @@
-# Copyright 2020 The HuggingFace Datasets Authors and the current dataset script contributor.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 """Accuracy metric."""
 
 import datasets
@@ -43,17 +30,6 @@ Returns:
     'bleu': bleu score,
 """
 
-
-_CITATION = """
-@inproceedings{yin2018learning,
-  title={Learning to mine aligned code and natural language pairs from stack overflow},
-  author={Yin, Pengcheng and Deng, Bowen and Chen, Edgar and Vasilescu, Bogdan and Neubig, Graham},
-  booktitle={2018 IEEE/ACM 15th international conference on mining software repositories (MSR)},
-  pages={476--486},
-  year={2018},
-  organization={IEEE}
-}
-"""
 
 def _get_ngrams(segment, max_order):
     """Extracts all n-grams upto a given maximum order from an input segment.

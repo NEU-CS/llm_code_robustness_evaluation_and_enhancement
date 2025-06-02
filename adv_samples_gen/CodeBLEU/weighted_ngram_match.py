@@ -1,13 +1,4 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) Microsoft Corporation. 
-# Licensed under the MIT license.
-
-# Natural Language Toolkit: BLEU Score
-#
-# Copyright (C) 2001-2020 NLTK Project
-# Authors: Chin Yee Lee, Hengfeng Li, Ruxin Hou, Calvin Tanujaya Lim
-# Contributors: Björn Mattsson, Dmitrijs Milajevs, Liling Tan
-# URL: <http://nltk.org/>
 # For license information, see LICENSE.TXT
 
 """BLEU score implementation."""
@@ -30,10 +21,6 @@ def sentence_bleu(
     auto_reweigh=False,
 ):
     """
-    Calculate BLEU score (Bilingual Evaluation Understudy) from
-    Papineni, Kishore, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002.
-    "BLEU: a method for automatic evaluation of machine translation."
-    In Proceedings of ACL. http://www.aclweb.org/anthology/P02-1040.pdf
     >>> hypothesis1 = ['It', 'is', 'a', 'guide', 'to', 'action', 'which',
     ...               'ensures', 'that', 'the', 'military', 'always',
     ...               'obeys', 'the', 'commands', 'of', 'the', 'party']
@@ -368,11 +355,6 @@ def brevity_penalty(closest_ref_len, hyp_len):
 
 class SmoothingFunction:
     """
-    This is an implementation of the smoothing techniques
-    for segment-level BLEU scores that was presented in
-    Boxing Chen and Collin Cherry (2014) A Systematic Comparison of
-    Smoothing Techniques for Sentence-Level BLEU. In WMT14.
-    http://acl2014.org/acl2014/W14-33/pdf/W14-3346.pdf
     """
 
     def __init__(self, epsilon=0.1, alpha=5, k=5):
@@ -489,10 +471,6 @@ class SmoothingFunction:
     def method4(self, p_n, references, hypothesis, hyp_len=None, *args, **kwargs):
         """
         Smoothing method 4:
-        Shorter translations may have inflated precision values due to having
-        smaller denominators; therefore, we give them proportionally
-        smaller smoothed counts. Instead of scaling to 1/(2^k), Chen and Cherry
-        suggests dividing by 1/ln(len(T)), where T is the length of the translation.
         """
         hyp_len = hyp_len if hyp_len else len(hypothesis)
         for i, p_i in enumerate(p_n):
@@ -523,11 +501,6 @@ class SmoothingFunction:
     def method6(self, p_n, references, hypothesis, hyp_len=None, *args, **kwargs):
         """
         Smoothing method 6:
-        Interpolates the maximum likelihood estimate of the precision *p_n* with
-        a prior estimate *pi0*. The prior is estimated by assuming that the ratio
-        between pn and pn−1 will be the same as that between pn−1 and pn−2; from
-        Gao and He (2013) Training MRF-Based Phrase Translation Models using
-        Gradient Ascent. In NAACL.
         """
         hyp_len = hyp_len if hyp_len else len(hypothesis)
         # This smoothing only works when p_1 and p_2 is non-zero.
